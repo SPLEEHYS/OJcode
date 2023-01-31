@@ -4,11 +4,15 @@
 using namespace std;
 
 int main() {
-    cout << 1;
-    cout << 1;
-    cout << 1;
-    cout << 1;
-
-    
+    cout << "THIS IS MAIN";
+    cout << "THIS IS MAIN";
+    cout << "THIS IS MAIN";cout << "THIS IS MAIN";
+    cout << "THIS IS MAIN";
+    cout << "THIS IS MAIN";
+    cout << "THIS IS MAIN";
+    cout << "THIS IS MAIN";
+    cout << "THIS IS MAIN";
+    cout << "THIS IS MAIN";
+    cout << "THIS IS MAIN";
     return 0;
 }
