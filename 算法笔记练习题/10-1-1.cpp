@@ -4,15 +4,8 @@
 using namespace std;
 
 int main() {
-    cout << "THIS IS MAIN";
-    cout << "THIS IS MAIN";
-    cout << "THIS IS MAIN";cout << "THIS IS MAIN";
-    cout << "THIS IS MAIN";
-    cout << "THIS IS MAIN";
-    cout << "THIS IS MAIN";
-    cout << "THIS IS MAIN";
-    cout << "THIS IS MAIN";
-    cout << "THIS IS MAIN";
-    cout << "THIS IS MAIN";
+    cout << 1;
+    cout << "This is 算法笔记";
+
     return 0;
 }
