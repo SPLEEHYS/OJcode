@@ -13,16 +13,16 @@ typedef struct node{
 } node;
 map<int, node> child;
 
-vector<int> vec;
+vector<int> parent;
 
 void FillTree(int cur, int &cnt) {
     assert(cur != -1);
-    assert(cnt >= 0 && cnt < vec.size());
+    assert(cnt >= 0 && cnt < parent.size());
 
     if (child[cur].first != -1) {
         FillTree(child[cur].first, cnt);
     }
-    child[cur].val = vec[cnt++];
+    child[cur].val = parent[cnt++];
     if (child[cur].second != -1) {
         FillTree(child[cur].second, cnt);
     }
@@ -44,12 +44,12 @@ void pretrav(int cur, int head) {
 int main() {
     int n;
     cin >> n;
-    vec = vector<int>(n);
+    parent = vector<int>(n);
 
     for (int i = 0; i < n; i++) {
-        scanf("%d", &vec[i]);
+        scanf("%d", &parent[i]);
     }
-    sort(vec.begin(), vec.end());
+    sort(parent.begin(), parent.end());
 
     for (int i = 0; i < n; i++) {
         scanf("%d %d", &child[i].first, &child[i].second);
