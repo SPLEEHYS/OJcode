@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "string": "cpp",
+        "iostream": "cpp",
+        "queue": "cpp",
+        "xtr1common": "cpp",
+        "vector": "cpp"
+    }
+}
