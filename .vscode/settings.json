@@ -5,6 +5,12 @@
         "iostream": "cpp",
         "queue": "cpp",
         "xtr1common": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "istream": "cpp",
+        "ios": "cpp",
+        "iosfwd": "cpp",
+        "iterator": "cpp",
+        "xstring": "cpp",
+        "cstdio": "cpp"
     }
 }
